@@ -10,7 +10,7 @@ namespace TestClient
 
         public string Show
         {
-            get { return String.Format("{0:dd.MM.yyyy}: {1}", Date, Name); }
+            get { return String.Format("{0:dd.MM.yyyy HH:mm}: {1}", Date, Name); }
         }
     }
 }

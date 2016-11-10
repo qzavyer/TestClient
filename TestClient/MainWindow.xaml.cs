@@ -56,7 +56,7 @@ namespace TestClient
                     break;
                 }
             }
-            catch (WebException exception)
+            catch (WebException)
             {
             }
             catch (Exception exception)
